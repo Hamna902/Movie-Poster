@@ -1,0 +1,132 @@
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #f4f4f4;
+  background-color: #111;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", sans-serif;
+  color: #ffcc00;
+}
+
+p {
+  margin-bottom: 1em;
+}
+
+.site-header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #000, #222);
+}
+
+.tagline {
+  font-style: italic;
+  color: #ccc;
+}
+
+a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: block;
+}
+
+iframe {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+.caption {
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+ol {
+  margin-left: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+thead {
+  background-color: #333;
+}
+th, td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: left;
+}
+tbody tr:nth-child(odd) {
+  background-color: #222;
+}
+tbody tr:nth-child(even) {
+  background-color: #333;
+}
+
+.fan-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+}
+.fan-form label {
+  font-weight: bold;
+}
+.fan-form input,
+.fan-form select,
+.fan-form textarea {
+  padding: 8px;
+  border: 1px solid #555;
+  border-radius: 6px;
+  background-color: #222;
+  color: #f4f4f4;
+}
+.fan-form button {
+  padding: 10px;
+  background: #ffcc00;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fan-form button:hover {
+  background: #e6b800;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: #000;
+  font-size: 0.9em;
+  color: #888;
+}
+
+.back-to-top {
+  text-align: right;
+  margin-top: 20px;
+}
