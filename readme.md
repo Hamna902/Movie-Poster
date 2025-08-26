@@ -41,11 +41,11 @@ project-root/
 
 1- Clone the repository:
 
-git clone https://github.com/your-username/the-dark-horizon.git
+git clone https://github.com/Hamna902/Movie-Poster.git
 
 2- Open the project folder:
 
-cd the-dark-horizon
+cd Movie-Poster
 
 3- Open index.html in your browser.
 
